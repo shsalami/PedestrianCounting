@@ -3,6 +3,7 @@ Using the data warehouse approach, this project presents a solution for the anal
  - The data warehouse is designed using Star Schema method.
 - Tables with the same structure as the input files are used for data staging (named as SensorLocations and MonthlyCountsPerHour).
 - Data profiling of input files is done on stage tables and the result is saved in Excel file DataProfiling.xlsx.
+- Testing Null values and uniqueness is important based on data profiling. 
 - The data warehouse diagram is shown in the file ERD.pdf.
 - The definition of the data items of the data warehouse is shown in the file Metadata.pdf.
 - The creation of stage tables and the data warehouse are shown in the file CreateSchema.sql.
